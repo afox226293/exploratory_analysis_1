@@ -8,7 +8,7 @@ Each ```plot*.R``` file can be run independently and will download and access th
 ```
 files <- list.files(pattern = "plot..R"); lapply(files, function(x){source(x)})
 ```
-# The output plots look like this:
+### The output plots look like this:
 
 ![plot1.png](https://github.com/afox226293/exploratory_analysis_1/blob/master/plot1.png)
 
